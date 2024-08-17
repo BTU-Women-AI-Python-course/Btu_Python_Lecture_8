@@ -8,4 +8,11 @@
   - Settings - https://docs.djangoproject.com/en/5.0/topics/settings/
   - URLs - https://docs.djangoproject.com/en/5.0/topics/http/urls/
   - Views - https://docs.djangoproject.com/en/5.0/topics/http/views/
-    
+
+
+# 📚 Initialize a New Django Project
+
+- Install Django;
+- Set up a new Django project;
+- Create a Django Application;
+- Create a Django superuser for managing the admin interface;
