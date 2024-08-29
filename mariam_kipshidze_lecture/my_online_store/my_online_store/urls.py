@@ -16,12 +16,14 @@ Including another URLconf
 """
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from my_online_store import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('product/', include('product.urls')),
+
 ]
 
 if settings.DEBUG:
