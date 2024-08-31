@@ -15,8 +15,7 @@ def blogs_view(request):
         <p>Tags: {', '.join(blog['tags'])}</p>
         <a href={blog_details_url}>View Details</a>
         """
-    return HttpResponse(html, status=200)
-
+    return blogs
 
 def blog_details_view(request, blog_key):
     blog = blogs[blog_key]
